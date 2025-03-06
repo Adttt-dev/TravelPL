@@ -16,10 +16,10 @@ body{
 
 /* home sction*/
 .hero-section {
-    background: linear-gradient(rgba(36, 36, 36, 0.6), rgba(33, 36, 38, 0.6)), url('../../img/20250306195213112.jpg') center/cover no-repeat;
-    border-radius: 40px;
-    padding: 120px 0;
+    background: linear-gradient(rgba(36, 36, 36, 0), rgba(33, 36, 38, 0)), url('../../img/1.png') center/cover no-repeat;
+    border-radius: 20px;
     color: white;
+    padding: 190px 0;
 }
 .home-section2 {
     padding: 50px 0;
@@ -97,7 +97,8 @@ body{
 @media (max-width: 768px) {
     .hero-section {
         background: linear-gradient((rgba(36, 36, 36, 0.6), rgba(33, 36, 38, 0.6))), 
-                    url('../../img/20250306195213112.jpg') center center / cover no-repeat;
-        height: 290px;
+                    url('../../img/1.png') center center / cover no-repeat;
+        height: 230px;
+        padding: 0;
     }
 }
